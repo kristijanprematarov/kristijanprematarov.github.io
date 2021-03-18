@@ -1,0 +1,191 @@
+/* ---------------------------------GOOGLE FONTS-------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v20-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../fonts/roboto-v20-latin-300.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/roboto-v20-latin-300.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/roboto-v20-latin-300.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../fonts/roboto-v20-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/roboto-v20-latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/roboto-v20-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../fonts/roboto-v20-latin-500.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/roboto-v20-latin-500.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../fonts/roboto-v20-latin-700.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/roboto-v20-latin-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/roboto-v20-latin-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v20-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/roboto-v20-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../fonts/roboto-v20-latin-900.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/roboto-v20-latin-900.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/roboto-v20-latin-900.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* ---------------------------------THE CSS STYLING-------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  margin-bottom: 9rem !important;
+  background-color: #151b29;
+}
+
+/* ---------------------------------HEADER------------------------------ */
+
+.header {
+  min-height: 50px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #151b29 !important;
+}
+
+/* ako treba sirinata na navbarot da se namale pri large itn */
+/* .navbar {
+  max-width: 1500px;
+} */
+
+/* AKO IMA SEARCH FORMA */
+.icon_container {
+  top: 0.5rem;
+  right: 1.2rem;
+}
+
+.first-content {
+  position: absolute;
+  top: 40%;
+}
+
+.grab {
+  background: none;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.4s;
+}
+
+.grab:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.1em);
+  cursor: pointer;
+}
+
+.navbar-brand, footer {
+  color: #ffa260 !important;
+  transition: all 0.15s;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+  text-shadow:0px 0px 30px #ffe205;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+
+/* ---------------------------------FOOTER------------------------------ */
+
+.footer {
+  /* kolku e height tuka tolku vo body margin bottom */
+  height: 9rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #151b29 !important;
+}
+
+

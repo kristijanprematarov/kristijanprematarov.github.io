@@ -1,0 +1,37 @@
+@import '../BS_SASS_CSS_JQUERY_POPPER_JS_BS4.5.3/scss/functions';
+@import '../BS_SASS_CSS_JQUERY_POPPER_JS_BS4.5.3/scss/variables';
+@import '../BS_SASS_CSS_JQUERY_POPPER_JS_BS4.5.3/scss/mixins';
+
+$theme-colors: (
+  "primary":        $primary,
+  "secondary":      $secondary,
+  "success":        $success,
+  "info":           $info,
+  "warning":        $warning,
+  "danger":         $danger,
+  "light":          $light,
+  "dark":           $dark,
+  "blue":           $blue,
+  "indigo":         $indigo,
+  "purple":         $purple,
+  "pink":           $pink,
+  "red":            $red,
+  "orange":         $orange,
+  "yellow":         $yellow,
+  "green":          $green,
+  "teal":           $teal,
+  "cyan":           $cyan,
+  "gray":           $gray-600,
+  "gray-dark":      $gray-800,
+  "gray-100":       $gray-100,
+  "gray-200":       $gray-200,
+  "gray-300":       $gray-300,
+  "gray-400":       $gray-400,
+  "gray-500":       $gray-500,
+  "gray-600":       $gray-600,
+  "gray-700":       $gray-700,
+  "gray-800":       $gray-800,
+  "gray-900":       $gray-900
+);
+
+@import '../BS_SASS_CSS_JQUERY_POPPER_JS_BS4.5.3/scss/bootstrap.scss'
