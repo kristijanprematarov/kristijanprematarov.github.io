@@ -150,7 +150,7 @@ body {
   border: 2px solid;
   padding: 1em 2em;
   font-size: 1em;
-  transition: all 0.4s;
+  transition: all 15s !important;
 }
 
 .grab:hover {
@@ -163,26 +163,26 @@ body {
 
 .navbar-brand, footer {
   color: #ffa260 !important;
-  transition: all 0.15s;
+  transition: all 0.15s !important;
 }
 
 .navbar-brand:hover {
   color: white !important;
-  text-shadow:0px 0px 30px #ffe205;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  text-shadow:0px 0px 30px #ffe205 !important;
+  -moz-transition: all 0.2s ease-in !important;
+  -o-transition: all 0.2s ease-in !important;
+  -webkit-transition: all 0.2s ease-in !important;
+  transition: all 0.2s ease-in !important;
   cursor: pointer;
 }
 
 .list-social a:hover {
   color: white !important;
-  text-shadow:0px 0px 1px #ffe205;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  text-shadow:0px 0px 1px #ffe205 !important;
+  -moz-transition: all 0.2s ease-in !important;
+  -o-transition: all 0.2s ease-in !important;
+  -webkit-transition: all 0.2s ease-in !important;
+  transition: all 0.2s ease-in !important;
   cursor: pointer;
 }
 
