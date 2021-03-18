@@ -150,7 +150,7 @@ body {
   border: 2px solid;
   padding: 1em 2em;
   font-size: 1em;
-  transition: all 15s !important;
+  transition: all 0.4s !important;
 }
 
 .grab:hover {
