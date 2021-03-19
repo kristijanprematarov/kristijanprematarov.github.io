@@ -198,3 +198,25 @@ body {
 }
 
 
+@media (max-width: 400px) {
+  
+  .list-social {
+    display:flex;
+    justify-content:space-around;
+  }
+
+  .social-text {
+    display: none;
+  }
+
+}
+
+@media (min-width: 400px) {
+  
+  .social-text {
+    display: block;
+  }
+
+}
+
+
