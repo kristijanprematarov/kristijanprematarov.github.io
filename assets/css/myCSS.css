@@ -185,6 +185,19 @@ body {
   cursor: pointer;
 }
 
+.tecnhologies-item {
+  border: 2px solid #f1ff5c;
+  color: white !important;
+  font-size: 0.8em;
+  cursor: pointer;
+  transition: all 0.4s !important;
+}
+
+.myHrule {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222 222 222 / 75%), rgba(0, 0, 0, 0));
+}
 
 /* ---------------------------------FOOTER------------------------------ */
 
