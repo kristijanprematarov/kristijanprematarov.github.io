@@ -139,6 +139,11 @@ body {
   right: 1.2rem;
 }
 
+.dev-icon {
+  font-size: 3rem;
+  color: white;
+}
+
 .first-content {
   padding-top: 15rem;
 }
