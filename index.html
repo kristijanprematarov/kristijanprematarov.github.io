@@ -115,7 +115,7 @@
 
                 <div class="col-12">
                     <a class="grab rounded py-3 px-5 badge badge-pill mt-5 mx-2"
-                        href="./Kristijan Prematarov CV2021.pdf">Grab my
+                        href="./Kristijan Prematarov CV2022 January.pdf">Grab my
                         CV_PDF</a>
                     <a class="grab rounded py-3 px-5 badge badge-pill mt-5 mx-2" href="./myCV.html">Grab my CV_HTML</a>
                 </div>
@@ -158,7 +158,7 @@
 
     <!-- FOOTER -->
     <footer class="footer container-fluid text-center d-flex flex-column justify-content-center mt-auto">
-        <p class="mb-0 mt-3">Kristijan Prematarov &copy; 2021</p>
+        <p class="mb-0 mt-3">Kristijan Prematarov &copy; <span class="year"></span></p>
     </footer>
 
 
@@ -174,6 +174,10 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
         integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
         crossorigin="anonymous"></script>
+    <script>
+        const year = new Date().getFullYear();
+        $(".year").text(year);
+    </script>
 </body>
 
 </html>

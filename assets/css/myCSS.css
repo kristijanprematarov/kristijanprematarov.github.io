@@ -11,14 +11,13 @@
   /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/roboto-v20-latin-300.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */
-    url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("../fonts/roboto-v20-latin-300.woff") format("woff"),
-    /* Modern Browsers */
-    url("../fonts/roboto-v20-latin-300.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    url("../fonts/roboto-v20-latin-300.svg#Roboto") format("svg");
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-300.svg#Roboto")
+      format("svg");
   /* Legacy iOS */
 }
 
@@ -30,15 +29,15 @@
   src: url("../fonts/roboto-v20-latin-regular.eot");
   /* IE9 Compat Modes */
   src: local(""),
-    url("../fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */
-    url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("../fonts/roboto-v20-latin-regular.woff") format("woff"),
-    /* Modern Browsers */
-    url("../fonts/roboto-v20-latin-regular.ttf") format("truetype"),
+    url("../fonts/roboto-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-regular.ttf")
+      format("truetype"),
     /* Safari, Android, iOS */
-    url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
+      url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -51,14 +50,13 @@
   /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */
-    url("../fonts/roboto-v20-latin-500.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("../fonts/roboto-v20-latin-500.woff") format("woff"),
-    /* Modern Browsers */
-    url("../fonts/roboto-v20-latin-500.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    url("../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-500.svg#Roboto")
+      format("svg");
   /* Legacy iOS */
 }
 
@@ -71,14 +69,13 @@
   /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/roboto-v20-latin-700.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */
-    url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("../fonts/roboto-v20-latin-700.woff") format("woff"),
-    /* Modern Browsers */
-    url("../fonts/roboto-v20-latin-700.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    url("../fonts/roboto-v20-latin-700.svg#Roboto") format("svg");
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-700.svg#Roboto")
+      format("svg");
   /* Legacy iOS */
 }
 
@@ -91,14 +88,13 @@
   /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */
-    url("../fonts/roboto-v20-latin-900.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("../fonts/roboto-v20-latin-900.woff") format("woff"),
-    /* Modern Browsers */
-    url("../fonts/roboto-v20-latin-900.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    url("../fonts/roboto-v20-latin-900.svg#Roboto") format("svg");
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v20-latin-900.svg#Roboto")
+      format("svg");
   /* Legacy iOS */
 }
 
@@ -126,6 +122,7 @@ body {
   right: 0;
   z-index: 999;
   background-color: #151b29 !important;
+  border-bottom: 1px solid;
 }
 
 /* ako treba sirinata na navbarot da se namale pri large itn */
@@ -165,14 +162,15 @@ body {
   cursor: pointer;
 }
 
-.navbar-brand, footer {
+.navbar-brand,
+footer {
   color: #ffa260 !important;
   transition: all 0.15s !important;
 }
 
 .navbar-brand:hover {
   color: white !important;
-  text-shadow:0px 0px 30px #ffe205 !important;
+  text-shadow: 0px 0px 30px #ffe205 !important;
   -moz-transition: all 0.2s ease-in !important;
   -o-transition: all 0.2s ease-in !important;
   -webkit-transition: all 0.2s ease-in !important;
@@ -180,9 +178,10 @@ body {
   cursor: pointer;
 }
 
-.list-social a:hover, .list-social i:hover {
+.list-social a:hover,
+.list-social i:hover {
   color: white !important;
-  text-shadow:0px 0px 1px #ffe205 !important;
+  text-shadow: 0px 0px 1px #ffe205 !important;
   -moz-transition: all 0.2s ease-in !important;
   -o-transition: all 0.2s ease-in !important;
   -webkit-transition: all 0.2s ease-in !important;
@@ -201,7 +200,12 @@ body {
 .myHrule {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222 222 222 / 75%), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(222 222 222 / 75%),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 /* ---------------------------------FOOTER------------------------------ */
@@ -215,22 +219,18 @@ body {
   background-color: #151b29 !important;
 }
 
-
 @media (max-width: 400px) {
-  
   .list-social {
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
   }
 
   .social-text {
     display: none;
   }
-
 }
 
 @media (min-width: 400px) {
-  
   .social-text {
     display: block;
   }
@@ -238,7 +238,4 @@ body {
   .fawesome {
     width: 100% !important;
   }
-
 }
-
-
